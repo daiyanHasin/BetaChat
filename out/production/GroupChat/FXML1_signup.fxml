@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="800.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXML1_signupController">
+   <children>
+      <ImageView fitHeight="525.0" fitWidth="406.0" layoutY="-7.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@icons/BETACHAT!!.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="557.0" layoutY="37.0" text="Sign UP" textFill="#11b5da" underline="true">
+         <font>
+            <Font name="Bookshelf Symbol 7" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="411.0" layoutY="158.0" prefHeight="21.0" prefWidth="82.0" text="Full Name:" textFill="#11b5da" />
+      <Label layoutX="413.0" layoutY="103.0" prefHeight="33.0" prefWidth="65.0" text="E-mail:" textFill="#11b5da" />
+      <Label layoutX="411.0" layoutY="276.0" prefHeight="21.0" prefWidth="82.0" text=" Password:" textFill="#11b5da" />
+      <Label layoutX="414.0" layoutY="343.0" text="Date of Birth:" textFill="#11b5da" />
+      <TextField layoutX="511.0" layoutY="104.0" prefHeight="31.0" prefWidth="277.0" />
+      <TextField layoutX="511.0" layoutY="153.0" prefHeight="31.0" prefWidth="277.0" />
+      <TextField layoutX="513.0" layoutY="271.0" prefHeight="31.0" prefWidth="277.0" />
+      <TextField layoutX="513.0" layoutY="338.0" prefHeight="31.0" prefWidth="277.0" />
+      <RadioButton layoutX="445.0" layoutY="466.0" mnemonicParsing="false" prefHeight="21.0" prefWidth="355.0" text="By clicking Sign Up, you agree to our Terms" />
+      <Button layoutX="566.0" layoutY="410.0" mnemonicParsing="false" text="Sign Up" />
+      <TextField layoutX="513.0" layoutY="208.0" prefHeight="31.0" prefWidth="277.0" />
+      <Label layoutX="413.0" layoutY="213.0" prefHeight="21.0" prefWidth="82.0" text="Last Name:" textFill="#11b5da" />
+   </children>
+</AnchorPane>
